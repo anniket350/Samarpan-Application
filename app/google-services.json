@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "962278574013",
+    "project_id": "samarpan-75ea0",
+    "storage_bucket": "samarpan-75ea0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962278574013:android:4daa0cb28cb8e83c37b4d4",
+        "android_client_info": {
+          "package_name": "com.example.samarpan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3SnyOGBs7_f74RRntnLluNjKnFAba9DI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

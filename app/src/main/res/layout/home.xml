@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="324dp"
+        android:layout_height="236dp"
+        android:contentDescription="todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        app:srcCompat="@drawable/new_logo_samarpan_03__png__final"
+        tools:ignore="ImageContrastCheck" />
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="303dp"
+        android:layout_height="51dp"
+        android:autofillHints=""
+        android:background="@drawable/edt_background"
+        android:ems="10"
+        android:hint="Username"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:textColorHint="#A96B6968"
+        android:textColor="@color/black"
+        app:circularflow_radiusInDP="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.108"
+        tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="@drawable/edt_background"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:textColorHint="#A96B6968"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailAddress"
+        app:layout_constraintVertical_bias="0.057"
+        tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+
+    <Button
+        android:id="@+id/Loginbutton"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/Yellow"
+        android:text="log in"
+        android:textColor="#121111"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <Button
+        android:id="@+id/Signup"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/Yellow"
+        android:text="sign up"
+        android:textColor="#121111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Loginbutton"
+        app:layout_constraintVertical_bias="0.115" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
